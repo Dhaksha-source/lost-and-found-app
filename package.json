@@ -1,0 +1,14 @@
+{
+  "name": "lostfound-plus",
+  "version": "1.0.0",
+  "description": "LOSTFOUND+ | AI-Powered Autonomous Lost Item Recovery & Verification Platform",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "fullstack": "cd frontend && npm run build && cd ../backend && npm start",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "verify": "cd backend && node scripts/verifySystem.js"
+  }
+}
